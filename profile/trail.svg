@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 28" width="1280" height="28" role="img" aria-label="">
+<defs><filter id="g" x="-5%" y="-200%" width="110%" height="500%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<style>
+  .t{fill:none;stroke-width:2;stroke-dasharray:1000 1000;stroke-dashoffset:1000;animation:ride 7s ease-in-out infinite}
+  @keyframes ride{0%{stroke-dashoffset:1000}60%,100%{stroke-dashoffset:0}}
+  @media (prefers-reduced-motion:reduce){.t{animation:none;stroke-dashoffset:0}}
+</style>
+<path d="M0 14.0H1280" stroke="#1d2027" stroke-width="1"/>
+<path class="t" pathLength="1000" d="M0 14.0H486V7.0H794V14.0H1280" stroke="#18e6ff" filter="url(#g)"/>
+</svg>
